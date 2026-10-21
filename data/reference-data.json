@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "icd10": "S06.5X9A",
+    "diagnosis": "Subdural hematoma after a fall with loss of consciousness",
+    "cpt": "70450",
+    "procedure": "CT of the head without contrast"
+  },
+  {
+    "id": 2,
+    "icd10": "K43.6",
+    "diagnosis": "Incarcerated ventral hernia",
+    "cpt": "49561",
+    "procedure": "Repair of incarcerated ventral hernia, partial omentectomy"
+  },
+  {
+    "id": 3,
+    "icd10": "K40.90",
+    "diagnosis": "Left inguinal hernia (direct)",
+    "cpt": "49505-LT",
+    "procedure": "Open left inguinal hernia repair with mesh (PHSL)"
+  },
+  {
+    "id": 4,
+    "icd10": "J35.01",
+    "diagnosis": "Chronic tonsillitis",
+    "cpt": "42826",
+    "procedure": "Tonsillectomy (age >12 yrs)"
+  },
+  {
+    "id": 5,
+    "icd10": "K40.30",
+    "diagnosis": "Incarcerated left inguinal hernia (indirect)",
+    "cpt": "49507-LT",
+    "procedure": "Repair of incarcerated left inguinal hernia with mesh (PHSL)"
+  },
+  {
+    "id": 6,
+    "icd10": "K80.50",
+    "diagnosis": "Biliary colic",
+    "cpt": "47562",
+    "procedure": "Laparoscopic cholecystectomy"
+  },
+  {
+    "id": 7,
+    "icd10": "M17.11",
+    "diagnosis": "Primary degenerative joint disease right knee",
+    "cpt": "27447-RT",
+    "procedure": "Right total knee arthroplasty"
+  },
+  {
+    "id": 8,
+    "icd10": "S42.022A",
+    "diagnosis": "Left midshaft clavicle fracture displaced",
+    "cpt": "23515-LT",
+    "procedure": "Left clavicle ORIF with fluoroscopy"
+  },
+  {
+    "id": 9,
+    "icd10": "M23.252",
+    "diagnosis": "Left knee lateral meniscal old tear",
+    "cpt": "29882-LT",
+    "procedure": "Left knee arthroscopic lateral meniscal repair"
+  },
+  {
+    "id": 10,
+    "icd10": "S52.571A",
+    "diagnosis": "Right distal radius comminuted intra-articular fracture",
+    "cpt": "25608-RT",
+    "procedure": "ORIF right wrist"
+  },
+  {
+    "id": 11,
+    "icd10": "M66.252",
+    "diagnosis": "Spontaneous ruptured quadriceps tendon left lower extremity",
+    "cpt": "27385-LT",
+    "procedure": "Repair of left quadriceps - left lower extremity"
+  },
+  {
+    "id": 12,
+    "icd10": "R55",
+    "diagnosis": "Syncope",
+    "cpt": "33285",
+    "procedure": "Insertion of implantable loop recorder"
+  },
+  {
+    "id": 13,
+    "icd10": "I74.2",
+    "diagnosis": "Thrombosis of upper limb",
+    "cpt": "34101",
+    "procedure": "Thrombectomy of the axillary and brachial arteries"
+  },
+  {
+    "id": 14,
+    "icd10": "I70.261",
+    "diagnosis": "Arteriosclerosis of right leg with gangrene",
+    "cpt": "35571-RT",
+    "procedure": "Popliteal to dorsalis pedis bypass graft using saphenous vein"
+  },
+  {
+    "id": 15,
+    "icd10": "S72.352A",
+    "diagnosis": "Left femur fracture (displaced); comminuted left femoral shaft fracture",
+    "cpt": "27506-LT",
+    "procedure": "Left femur intramedullary nailing (displaced comminuted left femoral shaft fracture)"
+  },
+  {
+    "id": 16,
+    "icd10": "S82.251A",
+    "diagnosis": "Comminuted and displaced fracture of the right tibial shaft",
+    "cpt": "27759-RT",
+    "procedure": "Locking intramedullary rod fixation - fractured right tibia; Stryker"
+  },
+  {
+    "id": 17,
+    "icd10": "M17.0",
+    "diagnosis": "Primary degenerative arthritis of both knees",
+    "cpt": "27447-50",
+    "procedure": "Bilateral total knee arthroplasty"
+  },
+  {
+    "id": 18,
+    "icd10": "S43.005A",
+    "diagnosis": "Dislocated left shoulder",
+    "cpt": "23655-LT",
+    "procedure": "Closed reduction of dislocated left shoulder"
+  },
+  {
+    "id": 19,
+    "icd10": "M23.52",
+    "diagnosis": "Chronic instability of knee",
+    "cpt": "29888-LT",
+    "procedure": "Left knee exam under anesthesia; arthroscopy; ACL reconstruction"
+  },
+  {
+    "id": 20,
+    "icd10": "S62.317A",
+    "diagnosis": "Left fifth metacarpal base fracture",
+    "cpt": "26608-LT",
+    "procedure": "Closed reduction and pin fixation of left fifth metacarpal base fracture"
+  },
+  {
+    "id": 21,
+    "icd10": "M16.11",
+    "diagnosis": "Severe primary osteoarthritis of the right hip",
+    "cpt": "27130",
+    "procedure": "Right total hip arthroplasty"
+  },
+  {
+    "id": 22,
+    "icd10": "M17.11",
+    "diagnosis": "Grade 2 and 3 degenerative joint disease, primary knee",
+    "cpt": "29877",
+    "procedure": "Right knee arthroscopy with trimming/debridement"
+  },
+  {
+    "id": 23,
+    "icd10": "E11.52",
+    "diagnosis": "Gangrene of right third toe (DM type 2)",
+    "cpt": "28820-T7",
+    "procedure": "Open amputation of right third toe"
+  },
+  {
+    "id": 24,
+    "icd10": "T84.84XA",
+    "diagnosis": "Removal of hardware due to pain, status post Knowles pin fixation of right hip",
+    "cpt": "20680",
+    "procedure": "Removal of Knowles pins x3, right hip"
+  }
+]

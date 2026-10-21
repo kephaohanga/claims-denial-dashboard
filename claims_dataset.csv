@@ -1,0 +1,601 @@
+claim_id,patient_id,payer,provider,icd10_code,cpt_code,billed_amount,paid_amount,status,denial_reason_code,denial_reason_desc,submission_date
+CLM-00001,PT-0001,Cigna,Summit Health Partners,M16.11,27130,14836.48,0.00,Denied,CO-18,Duplicate claim,2026-08-05
+CLM-00002,PT-0002,Aetna,Cedar Valley Physicians,K40.90,49505-LT,4408.17,0.00,Denied,CO-50,Not medically necessary,2026-01-05
+CLM-00003,PT-0003,BCBS,Northwell Billing Center,K40.90,49505-LT,4627.38,0.00,Denied,CO-29,Timely filing limit expired,2026-03-30
+CLM-00004,PT-0004,Medicare,Harborview Medical Group,M23.252,28820-T7,3506.09,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-07-07
+CLM-00005,PT-0005,Cigna,Cedar Valley Physicians,K40.90,49505-LT,4326.44,0.00,Denied,CO-50,Not medically necessary,2025-12-13
+CLM-00006,PT-0006,UnitedHealth,Lakeview Specialty Care,K80.50,47562,3817.04,0.00,Denied,CO-50,Not medically necessary,2026-07-03
+CLM-00007,PT-0007,Cigna,Harborview Medical Group,E11.52,28820-T7,3271.69,0.00,Denied,CO-29,Timely filing limit expired,2025-09-07
+CLM-00008,PT-0008,Aetna,Summit Health Partners,S42.022A,23515-LT,3493.26,0.00,Denied,CO-29,Timely filing limit expired,2025-09-12
+CLM-00009,PT-0009,Cigna,Cedar Valley Physicians,M17.11,27447-RT,13032.77,0.00,Denied,CO-197,Missing prior authorization,2026-07-11
+CLM-00010,PT-0010,UnitedHealth,Cedar Valley Physicians,S82.251A,27759-RT,10864.21,0.00,Denied,CO-50,Not medically necessary,2025-12-23
+CLM-00011,PT-0011,BCBS,Cedar Valley Physicians,M23.252,20680,2665.98,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-06-04
+CLM-00012,PT-0012,Medicare,Harborview Medical Group,I74.2,34101,8274.22,0.00,Denied,CO-197,Missing prior authorization,2025-10-19
+CLM-00013,PT-0013,UnitedHealth,Northwell Billing Center,M17.0,27447-50,17766.12,0.00,Denied,CO-197,Missing prior authorization,2025-10-05
+CLM-00014,PT-0014,BCBS,Cedar Valley Physicians,K40.30,49507-LT,4883.24,0.00,Denied,CO-18,Duplicate claim,2025-09-11
+CLM-00015,PT-0015,UnitedHealth,Pine Ridge Outpatient,I74.2,34101,8271.62,0.00,Denied,CO-197,Missing prior authorization,2026-05-07
+CLM-00016,PT-0016,Cigna,Northwell Billing Center,M23.252,29882-RT,3373.07,0.00,Denied,CO-16,Coding error or missing information,2025-10-07
+CLM-00017,PT-0017,Cigna,Summit Health Partners,M16.11,27385-LT,5742.53,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-03-20
+CLM-00018,PT-0018,UnitedHealth,Northwell Billing Center,K80.50,47562,4658.19,0.00,Denied,CO-50,Not medically necessary,2025-12-22
+CLM-00019,PT-0019,BCBS,Pine Ridge Outpatient,M17.0,42826,2000.08,0.00,Denied,CO-16,Coding error or missing information,2026-01-09
+CLM-00020,PT-0020,Cigna,Pine Ridge Outpatient,M17.11,49507-LT,4810.87,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2025-10-31
+CLM-00021,PT-0021,Cigna,Northwell Billing Center,S43.005A,23655-LT,2265.30,0.00,Denied,CO-197,Missing prior authorization,2026-04-17
+CLM-00022,PT-0022,Aetna,Summit Health Partners,S52.571A,23515-LT,3122.56,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-05-27
+CLM-00023,PT-0023,Aetna,Cedar Valley Physicians,K40.90,49505-LT,4779.83,0.00,Denied,CO-29,Timely filing limit expired,2025-09-14
+CLM-00024,PT-0024,BCBS,Harborview Medical Group,S43.005A,23655-LT,2305.44,0.00,Denied,CO-50,Not medically necessary,2026-05-18
+CLM-00025,PT-0025,Medicare,Pine Ridge Outpatient,K80.50,47562,4558.09,0.00,Denied,CO-18,Duplicate claim,2026-03-14
+CLM-00026,PT-0026,Cigna,Cedar Valley Physicians,M17.11,27447-RT,14586.05,0.00,Denied,CO-197,Missing prior authorization,2026-08-10
+CLM-00027,PT-0027,UnitedHealth,Cedar Valley Physicians,M16.11,33285,2355.43,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-05-01
+CLM-00028,PT-0028,Aetna,Harborview Medical Group,S72.352A,27506-LT,11467.62,0.00,Denied,CO-18,Duplicate claim,2026-01-30
+CLM-00029,PT-0029,Cigna,Pine Ridge Outpatient,S06.5X9A,70450,413.57,0.00,Denied,CO-197,Missing prior authorization,2025-11-30
+CLM-00030,PT-0030,Aetna,Cedar Valley Physicians,S06.5X9A,27130,12581.10,0.00,Denied,CO-16,Coding error or missing information,2025-09-13
+CLM-00031,PT-0031,Medicare,Northwell Billing Center,K43.6,49561,5222.08,0.00,Denied,CO-50,Not medically necessary,2025-12-30
+CLM-00032,PT-0032,UnitedHealth,Harborview Medical Group,M17.11,29877,2225.89,0.00,Denied,CO-197,Missing prior authorization,2026-05-29
+CLM-00033,PT-0033,UnitedHealth,Harborview Medical Group,M23.52,29888-LT,8466.01,0.00,Denied,CO-18,Duplicate claim,2026-03-06
+CLM-00034,PT-0034,Aetna,Northwell Billing Center,M17.11,27447-RT,14458.19,0.00,Denied,CO-197,Missing prior authorization,2026-02-07
+CLM-00035,PT-0035,UnitedHealth,Lakeview Specialty Care,I70.261,35571-LT,10869.68,0.00,Denied,CO-16,Coding error or missing information,2025-09-06
+CLM-00036,PT-0036,Aetna,Northwell Billing Center,M17.11,29877,2135.73,0.00,Denied,CO-50,Not medically necessary,2026-01-30
+CLM-00037,PT-0037,BCBS,Harborview Medical Group,J35.01,42826,1632.71,0.00,Denied,CO-197,Missing prior authorization,2026-03-27
+CLM-00038,PT-0038,UnitedHealth,Harborview Medical Group,K40.30,49507-LT,4667.82,0.00,Denied,CO-18,Duplicate claim,2025-12-15
+CLM-00039,PT-0039,UnitedHealth,Pine Ridge Outpatient,K40.90,49505-LT,4220.99,0.00,Denied,CO-197,Missing prior authorization,2026-07-09
+CLM-00040,PT-0040,Aetna,Northwell Billing Center,S43.005A,23655-LT,2481.40,0.00,Denied,CO-29,Timely filing limit expired,2025-12-09
+CLM-00041,PT-0041,UnitedHealth,Lakeview Specialty Care,K80.50,47562,4077.07,0.00,Denied,CO-50,Not medically necessary,2026-03-03
+CLM-00042,PT-0042,BCBS,Lakeview Specialty Care,K43.6,70450,515.52,0.00,Denied,CO-16,Coding error or missing information,2025-12-23
+CLM-00043,PT-0043,Medicare,Lakeview Specialty Care,S72.352A,27506-LT,13237.22,0.00,Denied,CO-29,Timely filing limit expired,2026-05-21
+CLM-00044,PT-0044,UnitedHealth,Harborview Medical Group,M17.11,25608-RT,3844.30,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2025-09-08
+CLM-00045,PT-0045,Cigna,Northwell Billing Center,M23.52,29888-LT,8380.26,0.00,Denied,CO-197,Missing prior authorization,2025-09-08
+CLM-00046,PT-0046,Cigna,Lakeview Specialty Care,K43.6,49561,5204.45,0.00,Denied,CO-18,Duplicate claim,2026-05-08
+CLM-00047,PT-0047,Aetna,Pine Ridge Outpatient,K40.90,47562,3569.28,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2025-09-13
+CLM-00048,PT-0048,BCBS,Lakeview Specialty Care,M17.11,29877,1949.13,0.00,Denied,CO-197,Missing prior authorization,2026-05-28
+CLM-00049,PT-0049,Cigna,Pine Ridge Outpatient,S42.022A,23515-RT,3102.92,0.00,Denied,CO-16,Coding error or missing information,2025-09-20
+CLM-00050,PT-0050,Cigna,Pine Ridge Outpatient,I70.261,35571-RT,9866.98,0.00,Denied,CO-18,Duplicate claim,2025-12-21
+CLM-00051,PT-0051,Medicare,Harborview Medical Group,M23.252,34101,6402.70,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-07-06
+CLM-00052,PT-0052,UnitedHealth,Summit Health Partners,S52.571A,25608-RT,4740.56,0.00,Denied,CO-29,Timely filing limit expired,2025-09-16
+CLM-00053,PT-0053,UnitedHealth,Pine Ridge Outpatient,M23.52,42826,1569.56,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2025-11-27
+CLM-00054,PT-0054,Medicare,Harborview Medical Group,M17.0,27447-50,18644.63,0.00,Denied,CO-50,Not medically necessary,2025-09-14
+CLM-00055,PT-0055,Medicare,Summit Health Partners,S42.022A,23515-LT,3230.37,0.00,Denied,CO-50,Not medically necessary,2026-05-15
+CLM-00056,PT-0056,Medicare,Pine Ridge Outpatient,E11.52,28820-T7,3549.98,0.00,Denied,CO-50,Not medically necessary,2026-07-10
+CLM-00057,PT-0057,Aetna,Cedar Valley Physicians,M17.0,23655-LT,2067.59,0.00,Denied,CO-16,Coding error or missing information,2026-07-15
+CLM-00058,PT-0058,BCBS,Summit Health Partners,T84.84XA,23655-LT,1972.60,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2026-01-01
+CLM-00059,PT-0059,BCBS,Cedar Valley Physicians,M66.252,27447-RT,14576.24,0.00,Denied,CO-11,Diagnosis inconsistent with procedure,2025-12-23
+CLM-00060,PT-0060,UnitedHealth,Summit Health Partners,M17.0,27447-50,18506.42,0.00,Denied,CO-18,Duplicate claim,2025-09-05
+CLM-00061,PT-0061,UnitedHealth,Summit Health Partners,K40.90,49505-LT,4143.48,4143.48,Paid,,,2025-10-15
+CLM-00062,PT-0062,Medicare,Harborview Medical Group,M16.11,27130,15549.35,15549.35,Paid,,,2026-03-16
+CLM-00063,PT-0063,Aetna,Northwell Billing Center,S43.005A,23655-LT,1919.66,1919.66,Paid,,,2025-10-25
+CLM-00064,PT-0064,Aetna,Summit Health Partners,S43.005A,23655-LT,2254.46,1340.52,Paid,,,2026-01-14
+CLM-00065,PT-0065,Aetna,Summit Health Partners,R55,33285,2191.26,2191.26,Paid,,,2025-10-01
+CLM-00066,PT-0066,Cigna,Lakeview Specialty Care,R55,33285,2741.16,2741.16,Paid,,,2025-12-09
+CLM-00067,PT-0067,BCBS,Lakeview Specialty Care,K80.50,47562,3515.49,3515.49,Paid,,,2026-01-27
+CLM-00068,PT-0068,BCBS,Summit Health Partners,I70.261,35571-RT,8798.04,8798.04,Paid,,,2026-02-21
+CLM-00069,PT-0069,UnitedHealth,Harborview Medical Group,K43.6,49561,4731.33,4731.33,Paid,,,2026-02-05
+CLM-00070,PT-0070,BCBS,Harborview Medical Group,S52.571A,25608-RT,3599.82,3599.82,Paid,,,2026-01-25
+CLM-00071,PT-0071,Aetna,Summit Health Partners,M23.252,29882-LT,3057.10,3057.10,Paid,,,2026-07-23
+CLM-00072,PT-0072,Medicare,Northwell Billing Center,S43.005A,23655-LT,1946.13,1946.13,Paid,,,2025-11-09
+CLM-00073,PT-0073,Medicare,Northwell Billing Center,M23.52,29888-LT,6883.66,6883.66,Paid,,,2026-01-17
+CLM-00074,PT-0074,Cigna,Pine Ridge Outpatient,I70.261,35571-RT,8670.00,8670.00,Paid,,,2025-11-15
+CLM-00075,PT-0075,Aetna,Cedar Valley Physicians,M23.252,29882-LT,3138.62,3138.62,Paid,,,2026-05-12
+CLM-00076,PT-0076,BCBS,Summit Health Partners,M17.11,29877,2154.66,2154.66,Paid,,,2026-01-26
+CLM-00077,PT-0077,Medicare,Cedar Valley Physicians,S62.317A,26608-LT,2871.45,2871.45,Paid,,,2026-01-10
+CLM-00078,PT-0078,Medicare,Cedar Valley Physicians,M17.0,27447-50,16046.54,16046.54,Paid,,,2026-01-08
+CLM-00079,PT-0079,BCBS,Harborview Medical Group,S43.005A,23655-LT,2147.49,2147.49,Paid,,,2026-07-22
+CLM-00080,PT-0080,BCBS,Pine Ridge Outpatient,T84.84XA,20680,2653.90,2653.90,Paid,,,2025-08-10
+CLM-00081,PT-0081,Medicare,Harborview Medical Group,S52.571A,25608-RT,4111.66,4111.66,Paid,,,2026-07-11
+CLM-00082,PT-0082,UnitedHealth,Lakeview Specialty Care,M66.252,27385-LT,6387.21,6387.21,Paid,,,2026-04-09
+CLM-00083,PT-0083,BCBS,Cedar Valley Physicians,T84.84XA,20680,2276.14,2276.14,Paid,,,2026-06-30
+CLM-00084,PT-0084,Medicare,Northwell Billing Center,S62.317A,26608-LT,2848.37,2848.37,Paid,,,2026-07-20
+CLM-00085,PT-0085,BCBS,Harborview Medical Group,S52.571A,25608-RT,3755.67,3358.99,Paid,,,2026-06-18
+CLM-00086,PT-0086,UnitedHealth,Lakeview Specialty Care,K40.90,49505-LT,5356.04,5356.04,Paid,,,2026-08-01
+CLM-00087,PT-0087,UnitedHealth,Lakeview Specialty Care,I74.2,34101,6647.01,6647.01,Paid,,,2025-08-12
+CLM-00088,PT-0088,UnitedHealth,Harborview Medical Group,J35.01,42826,1624.98,1624.98,Paid,,,2026-05-02
+CLM-00089,PT-0089,Aetna,Pine Ridge Outpatient,S72.352A,27506-LT,11559.49,11559.49,Paid,,,2026-03-31
+CLM-00090,PT-0090,UnitedHealth,Cedar Valley Physicians,K40.30,49507-LT,5046.70,5046.70,Paid,,,2026-01-19
+CLM-00091,PT-0091,Cigna,Cedar Valley Physicians,S72.352A,27506-LT,13970.08,13970.08,Paid,,,2026-05-17
+CLM-00092,PT-0092,BCBS,Cedar Valley Physicians,S72.352A,27506-LT,13855.61,13855.61,Paid,,,2025-12-14
+CLM-00093,PT-0093,Medicare,Pine Ridge Outpatient,M16.11,27130,14433.00,14433.00,Paid,,,2026-03-23
+CLM-00094,PT-0094,Medicare,Harborview Medical Group,K40.90,49505-LT,4471.27,4471.27,Paid,,,2026-05-13
+CLM-00095,PT-0095,BCBS,Harborview Medical Group,K40.90,49505-LT,4413.02,4413.02,Paid,,,2026-08-06
+CLM-00096,PT-0096,Aetna,Lakeview Specialty Care,M17.11,27447-RT,13417.46,13417.46,Paid,,,2026-03-10
+CLM-00097,PT-0097,BCBS,Lakeview Specialty Care,K43.6,49561,5027.58,5027.58,Paid,,,2026-08-01
+CLM-00098,PT-0098,Cigna,Lakeview Specialty Care,S06.5X9A,70450,446.89,446.89,Paid,,,2026-01-09
+CLM-00099,PT-0099,UnitedHealth,Pine Ridge Outpatient,I74.2,34101,7734.63,7734.63,Paid,,,2026-06-14
+CLM-00100,PT-0100,UnitedHealth,Harborview Medical Group,S42.022A,23515-LT,3354.77,3354.77,Paid,,,2026-02-25
+CLM-00101,PT-0101,UnitedHealth,Cedar Valley Physicians,M66.252,27385-LT,5846.84,5846.84,Paid,,,2025-10-14
+CLM-00102,PT-0102,Cigna,Northwell Billing Center,S62.317A,26608-LT,2917.40,2917.40,Paid,,,2026-07-15
+CLM-00103,PT-0103,Aetna,Cedar Valley Physicians,S06.5X9A,70450,440.36,440.36,Paid,,,2025-11-11
+CLM-00104,PT-0104,Medicare,Lakeview Specialty Care,K43.6,49561,4930.67,4930.67,Paid,,,2026-01-29
+CLM-00105,PT-0105,Medicare,Lakeview Specialty Care,I74.2,34101,6664.91,3710.92,Paid,,,2026-05-13
+CLM-00106,PT-0106,Medicare,Harborview Medical Group,K43.6,49561,5434.22,5434.22,Paid,,,2026-07-09
+CLM-00107,PT-0107,Aetna,Harborview Medical Group,K43.6,49561,4731.00,2854.37,Paid,,,2025-10-13
+CLM-00108,PT-0108,Aetna,Pine Ridge Outpatient,S82.251A,27759-RT,12477.60,12477.60,Paid,,,2025-12-19
+CLM-00109,PT-0109,BCBS,Pine Ridge Outpatient,R55,33285,2477.22,2477.22,Paid,,,2025-10-07
+CLM-00110,PT-0110,Medicare,Northwell Billing Center,K80.50,47562,4196.78,4196.78,Paid,,,2026-05-31
+CLM-00111,PT-0111,UnitedHealth,Lakeview Specialty Care,M17.11,29877,2491.37,2491.37,Paid,,,2026-06-09
+CLM-00112,PT-0112,BCBS,Northwell Billing Center,E11.52,28820-T7,3283.39,3283.39,Paid,,,2026-07-26
+CLM-00113,PT-0113,Aetna,Pine Ridge Outpatient,S62.317A,26608-LT,2820.46,2820.46,Paid,,,2026-03-17
+CLM-00114,PT-0114,Medicare,Northwell Billing Center,M17.11,29877,2203.93,2203.93,Paid,,,2026-03-13
+CLM-00115,PT-0115,Aetna,Lakeview Specialty Care,S82.251A,27759-RT,12520.60,12520.60,Paid,,,2026-04-02
+CLM-00116,PT-0116,BCBS,Lakeview Specialty Care,E11.52,28820-T7,2798.81,2798.81,Paid,,,2026-07-09
+CLM-00117,PT-0117,Cigna,Pine Ridge Outpatient,M23.252,29882-LT,3463.66,3463.66,Paid,,,2026-06-09
+CLM-00118,PT-0118,Medicare,Harborview Medical Group,M23.252,29882-LT,3517.50,3020.02,Paid,,,2025-12-12
+CLM-00119,PT-0119,Cigna,Pine Ridge Outpatient,S72.352A,27506-LT,13130.71,13130.71,Paid,,,2026-04-20
+CLM-00120,PT-0120,BCBS,Lakeview Specialty Care,M66.252,27385-LT,5938.63,5938.63,Paid,,,2026-01-31
+CLM-00121,PT-0121,Cigna,Cedar Valley Physicians,M23.252,29882-LT,3564.90,3564.90,Paid,,,2026-05-01
+CLM-00122,PT-0122,Aetna,Harborview Medical Group,M17.11,27447-RT,14711.11,14711.11,Paid,,,2025-12-11
+CLM-00123,PT-0123,UnitedHealth,Cedar Valley Physicians,E11.52,28820-T7,3297.01,3297.01,Paid,,,2025-08-18
+CLM-00124,PT-0124,Medicare,Harborview Medical Group,K40.90,49505-LT,4662.34,4662.34,Paid,,,2026-07-15
+CLM-00125,PT-0125,Medicare,Lakeview Specialty Care,M23.52,29888-LT,7925.13,7925.13,Paid,,,2026-05-18
+CLM-00126,PT-0126,Medicare,Cedar Valley Physicians,M66.252,27385-LT,6409.80,6409.80,Paid,,,2025-12-06
+CLM-00127,PT-0127,BCBS,Summit Health Partners,J35.01,42826,1594.56,1594.56,Paid,,,2026-07-29
+CLM-00128,PT-0128,BCBS,Harborview Medical Group,K80.50,47562,4393.48,4393.48,Paid,,,2026-06-07
+CLM-00129,PT-0129,Cigna,Summit Health Partners,M17.0,27447-50,18878.53,18878.53,Paid,,,2026-01-08
+CLM-00130,PT-0130,Medicare,Harborview Medical Group,S42.022A,23515-LT,3386.45,3386.45,Paid,,,2025-10-13
+CLM-00131,PT-0131,Aetna,Northwell Billing Center,M23.252,29882-LT,3251.22,3251.22,Paid,,,2025-10-13
+CLM-00132,PT-0132,UnitedHealth,Northwell Billing Center,M16.11,27130,16121.33,16121.33,Paid,,,2026-04-07
+CLM-00133,PT-0133,UnitedHealth,Summit Health Partners,S82.251A,27759-RT,9958.40,8757.14,Paid,,,2026-04-11
+CLM-00134,PT-0134,Aetna,Lakeview Specialty Care,J35.01,42826,1795.54,1795.54,Paid,,,2026-07-27
+CLM-00135,PT-0135,BCBS,Harborview Medical Group,K43.6,49561,5685.38,5685.38,Paid,,,2025-09-22
+CLM-00136,PT-0136,Aetna,Pine Ridge Outpatient,S42.022A,23515-LT,3885.60,3885.60,Paid,,,2026-06-22
+CLM-00137,PT-0137,Cigna,Lakeview Specialty Care,S42.022A,23515-LT,3546.56,3546.56,Paid,,,2026-06-07
+CLM-00138,PT-0138,Medicare,Pine Ridge Outpatient,I70.261,35571-RT,10155.82,10155.82,Paid,,,2025-09-29
+CLM-00139,PT-0139,BCBS,Summit Health Partners,M17.11,27447-RT,14464.17,14464.17,Paid,,,2025-11-06
+CLM-00140,PT-0140,Aetna,Harborview Medical Group,S43.005A,23655-LT,1871.77,1871.77,Paid,,,2026-06-10
+CLM-00141,PT-0141,Medicare,Northwell Billing Center,S82.251A,27759-RT,10113.87,10113.87,Paid,,,2026-08-04
+CLM-00142,PT-0142,Aetna,Cedar Valley Physicians,S72.352A,27506-LT,11500.34,11500.34,Paid,,,2026-06-26
+CLM-00143,PT-0143,BCBS,Lakeview Specialty Care,M23.52,29888-LT,6898.58,6898.58,Paid,,,2025-10-25
+CLM-00144,PT-0144,BCBS,Northwell Billing Center,M23.252,29882-LT,2777.25,2777.25,Paid,,,2026-06-10
+CLM-00145,PT-0145,Cigna,Summit Health Partners,T84.84XA,20680,2552.54,2552.54,Paid,,,2026-01-12
+CLM-00146,PT-0146,UnitedHealth,Summit Health Partners,E11.52,28820-T7,3100.44,3100.44,Paid,,,2025-09-20
+CLM-00147,PT-0147,Aetna,Lakeview Specialty Care,S62.317A,26608-LT,2782.94,2782.94,Paid,,,2025-08-23
+CLM-00148,PT-0148,BCBS,Cedar Valley Physicians,K40.90,49505-LT,5283.78,5283.78,Paid,,,2025-08-20
+CLM-00149,PT-0149,Medicare,Pine Ridge Outpatient,M17.11,29877,1896.55,1896.55,Paid,,,2026-04-07
+CLM-00150,PT-0150,UnitedHealth,Summit Health Partners,M17.0,27447-50,14923.37,14923.37,Paid,,,2026-07-01
+CLM-00151,PT-0151,Aetna,Lakeview Specialty Care,S82.251A,27759-RT,10498.27,10498.27,Paid,,,2026-07-19
+CLM-00152,PT-0152,BCBS,Summit Health Partners,J35.01,42826,1752.29,1752.29,Paid,,,2026-07-15
+CLM-00153,PT-0153,Cigna,Northwell Billing Center,I74.2,34101,7102.42,7102.42,Paid,,,2026-01-22
+CLM-00154,PT-0154,UnitedHealth,Pine Ridge Outpatient,J35.01,42826,1975.46,1687.59,Paid,,,2026-04-03
+CLM-00155,PT-0155,Aetna,Harborview Medical Group,I70.261,35571-RT,9854.21,9854.21,Paid,,,2026-04-22
+CLM-00156,PT-0156,UnitedHealth,Northwell Billing Center,M16.11,27130,13210.48,13210.48,Paid,,,2026-01-04
+CLM-00157,PT-0157,UnitedHealth,Northwell Billing Center,S72.352A,27506-LT,10733.26,10733.26,Paid,,,2025-12-10
+CLM-00158,PT-0158,BCBS,Summit Health Partners,E11.52,28820-T7,3147.28,3147.28,Paid,,,2025-09-26
+CLM-00159,PT-0159,Aetna,Lakeview Specialty Care,S42.022A,23515-LT,4082.83,4082.83,Paid,,,2025-10-27
+CLM-00160,PT-0160,Medicare,Pine Ridge Outpatient,S82.251A,27759-RT,11677.86,11677.86,Paid,,,2026-04-14
+CLM-00161,PT-0161,BCBS,Lakeview Specialty Care,S82.251A,27759-RT,11169.17,11169.17,Paid,,,2026-06-12
+CLM-00162,PT-0162,BCBS,Northwell Billing Center,M17.0,27447-50,15392.42,15392.42,Paid,,,2026-03-10
+CLM-00163,PT-0163,Cigna,Summit Health Partners,M66.252,27385-LT,7125.07,7125.07,Paid,,,2026-01-09
+CLM-00164,PT-0164,Cigna,Cedar Valley Physicians,M23.52,29888-LT,7775.76,5742.42,Paid,,,2026-02-02
+CLM-00165,PT-0165,Cigna,Pine Ridge Outpatient,M66.252,27385-LT,6260.56,6260.56,Paid,,,2025-11-14
+CLM-00166,PT-0166,BCBS,Pine Ridge Outpatient,E11.52,28820-T7,2991.16,2991.16,Paid,,,2026-03-08
+CLM-00167,PT-0167,Medicare,Cedar Valley Physicians,K43.6,49561,5157.84,5157.84,Paid,,,2026-02-21
+CLM-00168,PT-0168,BCBS,Lakeview Specialty Care,I74.2,34101,8204.02,7284.13,Paid,,,2026-01-26
+CLM-00169,PT-0169,UnitedHealth,Northwell Billing Center,J35.01,42826,1814.01,1814.01,Paid,,,2025-10-22
+CLM-00170,PT-0170,BCBS,Northwell Billing Center,I70.261,35571-RT,9710.30,9710.30,Paid,,,2026-01-30
+CLM-00171,PT-0171,UnitedHealth,Cedar Valley Physicians,S62.317A,26608-LT,2272.65,2272.65,Paid,,,2026-07-21
+CLM-00172,PT-0172,UnitedHealth,Summit Health Partners,S43.005A,23655-LT,2283.69,2283.69,Paid,,,2026-04-16
+CLM-00173,PT-0173,Aetna,Pine Ridge Outpatient,S43.005A,23655-LT,1915.16,1915.16,Paid,,,2026-01-04
+CLM-00174,PT-0174,Aetna,Lakeview Specialty Care,S42.022A,23515-LT,4116.60,4116.60,Paid,,,2026-08-05
+CLM-00175,PT-0175,UnitedHealth,Harborview Medical Group,J35.01,42826,1904.76,1904.76,Paid,,,2025-09-02
+CLM-00176,PT-0176,Aetna,Summit Health Partners,M66.252,27385-LT,6224.00,6224.00,Paid,,,2025-12-13
+CLM-00177,PT-0177,UnitedHealth,Pine Ridge Outpatient,M17.0,27447-50,17399.91,17399.91,Paid,,,2025-11-07
+CLM-00178,PT-0178,Cigna,Lakeview Specialty Care,K40.90,49505-LT,4972.38,4972.38,Paid,,,2026-06-04
+CLM-00179,PT-0179,BCBS,Lakeview Specialty Care,K40.30,49507-LT,5206.86,5206.86,Paid,,,2026-07-17
+CLM-00180,PT-0180,UnitedHealth,Summit Health Partners,S06.5X9A,70450,473.98,473.98,Paid,,,2026-03-24
+CLM-00181,PT-0181,Cigna,Summit Health Partners,R55,33285,2500.04,2500.04,Paid,,,2025-12-16
+CLM-00182,PT-0182,Medicare,Harborview Medical Group,S72.352A,27506-LT,14372.65,14372.65,Paid,,,2025-10-03
+CLM-00183,PT-0183,UnitedHealth,Pine Ridge Outpatient,S42.022A,23515-LT,3447.68,3447.68,Paid,,,2026-08-03
+CLM-00184,PT-0184,Aetna,Cedar Valley Physicians,S52.571A,25608-RT,4068.72,3469.70,Paid,,,2025-09-04
+CLM-00185,PT-0185,UnitedHealth,Summit Health Partners,S62.317A,26608-LT,2815.08,2815.08,Paid,,,2026-02-06
+CLM-00186,PT-0186,BCBS,Pine Ridge Outpatient,S42.022A,23515-LT,3330.68,3330.68,Paid,,,2026-07-13
+CLM-00187,PT-0187,BCBS,Cedar Valley Physicians,M17.11,29877,1934.13,1934.13,Paid,,,2025-08-30
+CLM-00188,PT-0188,UnitedHealth,Northwell Billing Center,S52.571A,25608-RT,4300.26,4300.26,Paid,,,2025-09-25
+CLM-00189,PT-0189,Medicare,Cedar Valley Physicians,S52.571A,25608-RT,4093.53,4093.53,Paid,,,2026-05-13
+CLM-00190,PT-0190,Cigna,Pine Ridge Outpatient,R55,33285,2697.71,2697.71,Paid,,,2025-12-19
+CLM-00191,PT-0191,Medicare,Cedar Valley Physicians,S82.251A,27759-RT,12222.31,12222.31,Paid,,,2026-04-06
+CLM-00192,PT-0192,BCBS,Harborview Medical Group,K40.90,49505-LT,5318.60,5318.60,Paid,,,2026-03-01
+CLM-00193,PT-0193,Medicare,Northwell Billing Center,S43.005A,23655-LT,2391.85,1764.71,Paid,,,2026-03-30
+CLM-00194,PT-0194,Medicare,Pine Ridge Outpatient,R55,33285,2314.34,2314.34,Paid,,,2026-02-16
+CLM-00195,PT-0195,BCBS,Lakeview Specialty Care,J35.01,42826,1543.51,1543.51,Paid,,,2026-05-24
+CLM-00196,PT-0196,Cigna,Harborview Medical Group,M66.252,27385-LT,6787.92,6787.92,Paid,,,2026-04-04
+CLM-00197,PT-0197,Medicare,Cedar Valley Physicians,E11.52,28820-T7,3014.72,2656.55,Paid,,,2026-01-12
+CLM-00198,PT-0198,Aetna,Northwell Billing Center,S82.251A,27759-RT,10124.84,10124.84,Paid,,,2026-02-24
+CLM-00199,PT-0199,Medicare,Cedar Valley Physicians,S72.352A,27506-LT,14185.18,14185.18,Paid,,,2026-05-13
+CLM-00200,PT-0200,Cigna,Cedar Valley Physicians,I70.261,35571-RT,10466.20,10466.20,Paid,,,2026-07-11
+CLM-00201,PT-0201,UnitedHealth,Pine Ridge Outpatient,J35.01,42826,1750.38,1750.38,Paid,,,2025-08-26
+CLM-00202,PT-0202,Medicare,Harborview Medical Group,E11.52,28820-T7,3047.35,3047.35,Paid,,,2026-02-11
+CLM-00203,PT-0203,Medicare,Pine Ridge Outpatient,J35.01,42826,2016.92,2016.92,Paid,,,2025-09-10
+CLM-00204,PT-0204,Medicare,Harborview Medical Group,I74.2,34101,8211.33,8211.33,Paid,,,2026-03-30
+CLM-00205,PT-0205,BCBS,Cedar Valley Physicians,K40.90,49505-LT,5000.87,5000.87,Paid,,,2025-09-04
+CLM-00206,PT-0206,BCBS,Harborview Medical Group,M66.252,27385-LT,7059.61,7059.61,Paid,,,2026-05-20
+CLM-00207,PT-0207,Cigna,Harborview Medical Group,M17.11,27447-RT,15096.04,15096.04,Paid,,,2025-10-24
+CLM-00208,PT-0208,Aetna,Summit Health Partners,S62.317A,26608-LT,2879.56,1714.77,Paid,,,2025-12-16
+CLM-00209,PT-0209,Aetna,Cedar Valley Physicians,K80.50,47562,4550.73,3073.49,Paid,,,2025-12-09
+CLM-00210,PT-0210,Medicare,Northwell Billing Center,M23.52,29888-LT,7037.74,5697.76,Paid,,,2026-05-06
+CLM-00211,PT-0211,Aetna,Lakeview Specialty Care,J35.01,42826,1772.07,1772.07,Paid,,,2026-06-09
+CLM-00212,PT-0212,UnitedHealth,Pine Ridge Outpatient,J35.01,42826,1649.64,1649.64,Paid,,,2026-07-13
+CLM-00213,PT-0213,Medicare,Lakeview Specialty Care,M17.0,27447-50,17209.54,15480.07,Paid,,,2026-03-03
+CLM-00214,PT-0214,Aetna,Lakeview Specialty Care,I70.261,35571-RT,10424.46,10424.46,Paid,,,2025-09-20
+CLM-00215,PT-0215,Cigna,Harborview Medical Group,M66.252,27385-LT,5653.08,5653.08,Paid,,,2026-06-30
+CLM-00216,PT-0216,Cigna,Cedar Valley Physicians,M23.52,29888-LT,7390.93,7390.93,Paid,,,2026-05-08
+CLM-00217,PT-0217,UnitedHealth,Pine Ridge Outpatient,S52.571A,25608-RT,4332.84,3447.31,Paid,,,2026-07-11
+CLM-00218,PT-0218,Cigna,Cedar Valley Physicians,M16.11,27130,16089.89,16089.89,Paid,,,2025-12-04
+CLM-00219,PT-0219,Medicare,Lakeview Specialty Care,I70.261,35571-RT,9502.27,9502.27,Paid,,,2026-01-17
+CLM-00220,PT-0220,Medicare,Cedar Valley Physicians,I70.261,35571-RT,9079.38,9079.38,Paid,,,2026-07-27
+CLM-00221,PT-0221,Aetna,Northwell Billing Center,S82.251A,27759-RT,12094.85,7060.94,Paid,,,2026-02-16
+CLM-00222,PT-0222,Cigna,Northwell Billing Center,K40.30,49507-LT,5129.70,5129.70,Paid,,,2026-01-25
+CLM-00223,PT-0223,Aetna,Lakeview Specialty Care,M17.11,29877,2103.37,2103.37,Paid,,,2026-03-14
+CLM-00224,PT-0224,Aetna,Summit Health Partners,T84.84XA,20680,2678.32,2678.32,Paid,,,2026-06-01
+CLM-00225,PT-0225,BCBS,Harborview Medical Group,M17.0,27447-50,17275.84,17275.84,Paid,,,2025-10-04
+CLM-00226,PT-0226,Cigna,Summit Health Partners,R55,33285,2122.72,2122.72,Paid,,,2025-12-03
+CLM-00227,PT-0227,Cigna,Pine Ridge Outpatient,I70.261,35571-RT,10133.91,10133.91,Paid,,,2025-08-23
+CLM-00228,PT-0228,Medicare,Northwell Billing Center,S62.317A,26608-LT,2350.72,2350.72,Paid,,,2026-01-15
+CLM-00229,PT-0229,Medicare,Northwell Billing Center,M66.252,27385-LT,5878.74,4585.83,Paid,,,2025-09-14
+CLM-00230,PT-0230,Aetna,Northwell Billing Center,K40.30,49507-LT,5369.17,5369.17,Paid,,,2026-03-12
+CLM-00231,PT-0231,Medicare,Harborview Medical Group,S72.352A,27506-LT,12012.70,12012.70,Paid,,,2026-05-27
+CLM-00232,PT-0232,Aetna,Northwell Billing Center,S62.317A,26608-LT,2331.35,2331.35,Paid,,,2025-09-04
+CLM-00233,PT-0233,Aetna,Summit Health Partners,M17.11,29877,2162.45,2162.45,Paid,,,2026-06-16
+CLM-00234,PT-0234,UnitedHealth,Summit Health Partners,S72.352A,27506-LT,11433.38,11433.38,Paid,,,2026-02-02
+CLM-00235,PT-0235,Aetna,Summit Health Partners,I70.261,35571-RT,10323.96,10323.96,Paid,,,2026-05-06
+CLM-00236,PT-0236,Medicare,Northwell Billing Center,M17.11,29877,2015.54,2015.54,Paid,,,2025-09-07
+CLM-00237,PT-0237,BCBS,Summit Health Partners,S06.5X9A,70450,510.12,510.12,Paid,,,2025-12-18
+CLM-00238,PT-0238,Medicare,Northwell Billing Center,S52.571A,25608-RT,3579.74,3579.74,Paid,,,2025-11-07
+CLM-00239,PT-0239,UnitedHealth,Pine Ridge Outpatient,K40.30,49507-LT,5305.51,5305.51,Paid,,,2026-07-18
+CLM-00240,PT-0240,Aetna,Lakeview Specialty Care,R55,33285,2660.47,1480.71,Paid,,,2025-09-18
+CLM-00241,PT-0241,Cigna,Lakeview Specialty Care,M66.252,27385-LT,6643.13,6643.13,Paid,,,2026-03-11
+CLM-00242,PT-0242,Aetna,Lakeview Specialty Care,S52.571A,25608-RT,3596.28,3596.28,Paid,,,2026-06-22
+CLM-00243,PT-0243,Medicare,Northwell Billing Center,S72.352A,27506-LT,12262.67,8614.36,Paid,,,2026-03-03
+CLM-00244,PT-0244,Aetna,Lakeview Specialty Care,M17.0,27447-50,18334.10,18334.10,Paid,,,2025-12-01
+CLM-00245,PT-0245,BCBS,Northwell Billing Center,M66.252,27385-LT,6520.44,4750.03,Paid,,,2026-02-04
+CLM-00246,PT-0246,BCBS,Harborview Medical Group,R55,33285,2114.02,2114.02,Paid,,,2025-11-06
+CLM-00247,PT-0247,BCBS,Cedar Valley Physicians,S62.317A,26608-LT,2268.78,2268.78,Paid,,,2026-06-27
+CLM-00248,PT-0248,UnitedHealth,Pine Ridge Outpatient,S82.251A,27759-RT,11857.59,11857.59,Paid,,,2026-05-26
+CLM-00249,PT-0249,Cigna,Summit Health Partners,M16.11,27130,16084.47,16084.47,Paid,,,2025-10-26
+CLM-00250,PT-0250,Aetna,Lakeview Specialty Care,S72.352A,27506-LT,12283.28,12283.28,Paid,,,2025-12-28
+CLM-00251,PT-0251,Aetna,Summit Health Partners,M23.52,29888-LT,7817.17,7817.17,Paid,,,2026-03-29
+CLM-00252,PT-0252,Aetna,Summit Health Partners,K43.6,49561,5717.45,4874.05,Paid,,,2025-09-25
+CLM-00253,PT-0253,Cigna,Pine Ridge Outpatient,S62.317A,26608-LT,2509.90,2509.90,Paid,,,2025-08-31
+CLM-00254,PT-0254,Cigna,Cedar Valley Physicians,S72.352A,27506-LT,11330.90,11330.90,Paid,,,2026-04-23
+CLM-00255,PT-0255,Aetna,Lakeview Specialty Care,K40.30,49507-LT,4405.25,4405.25,Paid,,,2026-02-01
+CLM-00256,PT-0256,Aetna,Pine Ridge Outpatient,E11.52,28820-T7,3235.90,2581.17,Paid,,,2026-03-22
+CLM-00257,PT-0257,Cigna,Pine Ridge Outpatient,M17.0,27447-50,14810.79,14810.79,Paid,,,2026-01-01
+CLM-00258,PT-0258,UnitedHealth,Summit Health Partners,I74.2,34101,7586.42,5847.69,Paid,,,2026-01-28
+CLM-00259,PT-0259,Medicare,Northwell Billing Center,K40.90,49505-LT,4883.47,4883.47,Paid,,,2025-12-17
+CLM-00260,PT-0260,Cigna,Harborview Medical Group,T84.84XA,20680,2470.02,2470.02,Paid,,,2025-10-21
+CLM-00261,PT-0261,Medicare,Cedar Valley Physicians,R55,33285,2542.91,2542.91,Paid,,,2026-06-10
+CLM-00262,PT-0262,Aetna,Summit Health Partners,E11.52,28820-T7,3154.80,3154.80,Paid,,,2026-01-25
+CLM-00263,PT-0263,Cigna,Northwell Billing Center,K40.30,49507-LT,5219.04,5219.04,Paid,,,2026-02-11
+CLM-00264,PT-0264,Medicare,Summit Health Partners,S06.5X9A,70450,406.84,406.84,Paid,,,2026-04-15
+CLM-00265,PT-0265,BCBS,Harborview Medical Group,M17.11,27447-RT,12371.47,12371.47,Paid,,,2025-09-30
+CLM-00266,PT-0266,Cigna,Cedar Valley Physicians,M17.0,27447-50,18399.23,12288.25,Paid,,,2026-06-22
+CLM-00267,PT-0267,Cigna,Lakeview Specialty Care,K40.30,49507-LT,4481.38,4481.38,Paid,,,2026-07-30
+CLM-00268,PT-0268,BCBS,Cedar Valley Physicians,S62.317A,26608-LT,2551.39,2551.39,Paid,,,2026-07-22
+CLM-00269,PT-0269,BCBS,Lakeview Specialty Care,T84.84XA,20680,2686.26,2686.26,Paid,,,2026-03-27
+CLM-00270,PT-0270,Cigna,Harborview Medical Group,S42.022A,23515-LT,3394.23,3394.23,Paid,,,2026-04-07
+CLM-00271,PT-0271,Medicare,Cedar Valley Physicians,M17.11,27447-RT,15651.12,15651.12,Paid,,,2026-04-03
+CLM-00272,PT-0272,UnitedHealth,Pine Ridge Outpatient,S52.571A,25608-RT,4234.60,4234.60,Paid,,,2025-11-20
+CLM-00273,PT-0273,BCBS,Summit Health Partners,S62.317A,26608-LT,2250.70,2250.70,Paid,,,2026-02-16
+CLM-00274,PT-0274,Aetna,Cedar Valley Physicians,S43.005A,23655-LT,2428.29,2428.29,Paid,,,2026-01-02
+CLM-00275,PT-0275,BCBS,Summit Health Partners,K40.90,49505-LT,4727.02,4727.02,Paid,,,2026-03-21
+CLM-00276,PT-0276,BCBS,Lakeview Specialty Care,K40.90,49505-LT,5353.87,5353.87,Paid,,,2026-03-10
+CLM-00277,PT-0277,UnitedHealth,Pine Ridge Outpatient,K43.6,49561,5003.38,5003.38,Paid,,,2025-09-20
+CLM-00278,PT-0278,BCBS,Northwell Billing Center,R55,33285,2269.45,1815.89,Paid,,,2026-01-28
+CLM-00279,PT-0279,BCBS,Northwell Billing Center,K40.30,49507-LT,4680.32,4680.32,Paid,,,2026-08-01
+CLM-00280,PT-0280,UnitedHealth,Lakeview Specialty Care,K40.30,49507-LT,5173.02,5173.02,Paid,,,2025-08-19
+CLM-00281,PT-0281,BCBS,Harborview Medical Group,M23.252,29882-LT,3246.85,3246.85,Paid,,,2026-05-07
+CLM-00282,PT-0282,Aetna,Summit Health Partners,I70.261,35571-RT,9028.66,5719.24,Paid,,,2026-07-03
+CLM-00283,PT-0283,UnitedHealth,Northwell Billing Center,S62.317A,26608-LT,2296.47,2296.47,Paid,,,2026-06-11
+CLM-00284,PT-0284,Aetna,Cedar Valley Physicians,S43.005A,23655-LT,2210.15,2210.15,Paid,,,2025-10-22
+CLM-00285,PT-0285,UnitedHealth,Northwell Billing Center,S52.571A,25608-RT,4344.66,4344.66,Paid,,,2026-03-11
+CLM-00286,PT-0286,Aetna,Pine Ridge Outpatient,K80.50,47562,4683.83,3438.50,Paid,,,2026-04-26
+CLM-00287,PT-0287,Cigna,Northwell Billing Center,M17.0,27447-50,15957.75,15957.75,Paid,,,2026-07-01
+CLM-00288,PT-0288,Medicare,Summit Health Partners,I74.2,34101,7734.20,7734.20,Paid,,,2025-09-13
+CLM-00289,PT-0289,BCBS,Cedar Valley Physicians,R55,33285,2513.12,1894.05,Paid,,,2026-01-27
+CLM-00290,PT-0290,Aetna,Summit Health Partners,K40.30,49507-LT,5069.02,5069.02,Paid,,,2025-11-07
+CLM-00291,PT-0291,UnitedHealth,Cedar Valley Physicians,M17.11,29877,2185.83,2185.83,Paid,,,2025-10-18
+CLM-00292,PT-0292,UnitedHealth,Northwell Billing Center,K40.90,49505-LT,4502.56,2790.75,Paid,,,2025-08-31
+CLM-00293,PT-0293,Medicare,Pine Ridge Outpatient,M66.252,27385-LT,6301.54,6301.54,Paid,,,2026-04-09
+CLM-00294,PT-0294,Aetna,Cedar Valley Physicians,M23.252,29882-LT,2903.46,2903.46,Paid,,,2025-09-03
+CLM-00295,PT-0295,Medicare,Summit Health Partners,M16.11,27130,12866.47,12866.47,Paid,,,2026-03-02
+CLM-00296,PT-0296,UnitedHealth,Lakeview Specialty Care,T84.84XA,20680,2474.45,2474.45,Paid,,,2026-07-30
+CLM-00297,PT-0297,Medicare,Pine Ridge Outpatient,S82.251A,27759-RT,10230.18,7146.55,Paid,,,2026-03-18
+CLM-00298,PT-0298,BCBS,Pine Ridge Outpatient,S62.317A,26608-LT,2439.14,1621.47,Paid,,,2026-01-08
+CLM-00299,PT-0299,UnitedHealth,Pine Ridge Outpatient,S52.571A,25608-RT,4474.26,4474.26,Paid,,,2026-03-25
+CLM-00300,PT-0300,UnitedHealth,Northwell Billing Center,R55,33285,2563.31,2563.31,Paid,,,2026-06-20
+CLM-00301,PT-0301,Medicare,Cedar Valley Physicians,I70.261,35571-RT,11211.28,11211.28,Paid,,,2025-09-17
+CLM-00302,PT-0302,UnitedHealth,Summit Health Partners,M17.11,29877,2208.64,2208.64,Paid,,,2025-10-30
+CLM-00303,PT-0303,BCBS,Pine Ridge Outpatient,S06.5X9A,70450,474.04,474.04,Paid,,,2025-10-13
+CLM-00304,PT-0304,BCBS,Cedar Valley Physicians,K40.90,49505-LT,4607.51,4607.51,Paid,,,2026-05-27
+CLM-00305,PT-0305,Cigna,Harborview Medical Group,K43.6,49561,5479.34,5479.34,Paid,,,2026-02-16
+CLM-00306,PT-0306,Aetna,Pine Ridge Outpatient,S72.352A,27506-LT,11141.36,11141.36,Paid,,,2026-01-17
+CLM-00307,PT-0307,Medicare,Harborview Medical Group,M16.11,27130,16503.26,10151.43,Paid,,,2026-05-02
+CLM-00308,PT-0308,Cigna,Northwell Billing Center,I74.2,34101,6685.44,6685.44,Paid,,,2026-03-26
+CLM-00309,PT-0309,Cigna,Summit Health Partners,M17.11,27447-RT,14603.08,14603.08,Paid,,,2025-11-20
+CLM-00310,PT-0310,BCBS,Northwell Billing Center,J35.01,42826,1774.10,1774.10,Paid,,,2026-03-25
+CLM-00311,PT-0311,Medicare,Cedar Valley Physicians,K40.90,49505-LT,4580.29,3388.32,Paid,,,2026-01-10
+CLM-00312,PT-0312,BCBS,Summit Health Partners,K80.50,47562,4110.77,2550.09,Paid,,,2025-10-20
+CLM-00313,PT-0313,UnitedHealth,Northwell Billing Center,S42.022A,23515-LT,3449.77,3449.77,Paid,,,2026-04-06
+CLM-00314,PT-0314,BCBS,Pine Ridge Outpatient,S43.005A,23655-LT,2453.60,1691.40,Paid,,,2026-04-12
+CLM-00315,PT-0315,UnitedHealth,Lakeview Specialty Care,M17.0,27447-50,18100.53,16115.50,Paid,,,2026-07-04
+CLM-00316,PT-0316,UnitedHealth,Lakeview Specialty Care,K40.90,49505-LT,5059.36,5059.36,Paid,,,2026-05-19
+CLM-00317,PT-0317,Cigna,Harborview Medical Group,M16.11,27130,15664.85,11372.72,Paid,,,2025-09-07
+CLM-00318,PT-0318,Cigna,Harborview Medical Group,J35.01,42826,1694.23,1694.23,Paid,,,2026-08-08
+CLM-00319,PT-0319,Medicare,Pine Ridge Outpatient,S42.022A,23515-LT,4026.52,4026.52,Paid,,,2025-12-16
+CLM-00320,PT-0320,Cigna,Summit Health Partners,M17.11,27447-RT,12248.21,12248.21,Paid,,,2026-05-10
+CLM-00321,PT-0321,Cigna,Cedar Valley Physicians,K40.90,49505-LT,4322.84,4322.84,Paid,,,2025-10-27
+CLM-00322,PT-0322,Cigna,Cedar Valley Physicians,K80.50,47562,4594.46,4594.46,Paid,,,2026-05-25
+CLM-00323,PT-0323,Aetna,Northwell Billing Center,K43.6,49561,4490.92,4490.92,Paid,,,2026-06-01
+CLM-00324,PT-0324,BCBS,Pine Ridge Outpatient,M23.252,29882-LT,3119.92,3119.92,Paid,,,2026-04-21
+CLM-00325,PT-0325,Cigna,Summit Health Partners,M16.11,27130,15117.30,15117.30,Paid,,,2025-12-13
+CLM-00326,PT-0326,UnitedHealth,Summit Health Partners,M17.11,29877,2169.34,2169.34,Paid,,,2025-10-29
+CLM-00327,PT-0327,UnitedHealth,Lakeview Specialty Care,S72.352A,27506-LT,12366.66,12366.66,Paid,,,2025-10-22
+CLM-00328,PT-0328,Medicare,Cedar Valley Physicians,M66.252,27385-LT,7451.65,7451.65,Paid,,,2026-03-02
+CLM-00329,PT-0329,Medicare,Pine Ridge Outpatient,K40.30,49507-LT,5092.48,5092.48,Paid,,,2026-04-05
+CLM-00330,PT-0330,Medicare,Lakeview Specialty Care,J35.01,42826,1663.88,1084.14,Paid,,,2026-02-22
+CLM-00331,PT-0331,UnitedHealth,Harborview Medical Group,S62.317A,26608-LT,2960.89,2960.89,Paid,,,2026-01-24
+CLM-00332,PT-0332,Medicare,Harborview Medical Group,M23.52,29888-LT,8415.70,8415.70,Paid,,,2026-04-30
+CLM-00333,PT-0333,UnitedHealth,Summit Health Partners,S72.352A,27506-LT,12490.14,8588.65,Paid,,,2026-04-01
+CLM-00334,PT-0334,BCBS,Pine Ridge Outpatient,S42.022A,23515-LT,3441.13,2488.67,Paid,,,2026-07-10
+CLM-00335,PT-0335,UnitedHealth,Summit Health Partners,M17.11,29877,2224.22,2224.22,Paid,,,2026-03-18
+CLM-00336,PT-0336,Medicare,Cedar Valley Physicians,K40.30,49507-LT,4798.67,4798.67,Paid,,,2025-09-02
+CLM-00337,PT-0337,Aetna,Pine Ridge Outpatient,I74.2,34101,7333.52,7333.52,Paid,,,2026-01-04
+CLM-00338,PT-0338,UnitedHealth,Pine Ridge Outpatient,K40.90,49505-LT,4728.51,4728.51,Paid,,,2026-06-25
+CLM-00339,PT-0339,Cigna,Northwell Billing Center,M17.11,29877,1954.92,1330.56,Paid,,,2026-01-30
+CLM-00340,PT-0340,Medicare,Harborview Medical Group,S43.005A,23655-LT,2001.38,2001.38,Paid,,,2026-04-23
+CLM-00341,PT-0341,Aetna,Northwell Billing Center,K43.6,49561,4633.78,4633.78,Paid,,,2026-04-09
+CLM-00342,PT-0342,UnitedHealth,Harborview Medical Group,M17.0,27447-50,17025.99,17025.99,Paid,,,2026-01-24
+CLM-00343,PT-0343,Medicare,Harborview Medical Group,S62.317A,26608-LT,2516.50,2516.50,Paid,,,2026-01-10
+CLM-00344,PT-0344,Medicare,Pine Ridge Outpatient,M23.52,29888-LT,8568.20,8568.20,Paid,,,2026-08-07
+CLM-00345,PT-0345,Medicare,Lakeview Specialty Care,M23.52,29888-LT,8538.85,8538.85,Paid,,,2026-07-20
+CLM-00346,PT-0346,UnitedHealth,Pine Ridge Outpatient,J35.01,42826,1696.15,1696.15,Paid,,,2026-07-28
+CLM-00347,PT-0347,Aetna,Pine Ridge Outpatient,M16.11,27130,14389.47,14389.47,Paid,,,2026-06-02
+CLM-00348,PT-0348,BCBS,Cedar Valley Physicians,M23.52,29888-LT,6750.17,6750.17,Paid,,,2026-05-05
+CLM-00349,PT-0349,Cigna,Lakeview Specialty Care,M16.11,27130,12967.82,12967.82,Paid,,,2025-08-26
+CLM-00350,PT-0350,Aetna,Harborview Medical Group,M23.52,29888-LT,6674.31,6674.31,Paid,,,2025-10-26
+CLM-00351,PT-0351,BCBS,Lakeview Specialty Care,I70.261,35571-RT,9805.35,9805.35,Paid,,,2026-04-08
+CLM-00352,PT-0352,Aetna,Cedar Valley Physicians,T84.84XA,20680,2317.70,2317.70,Paid,,,2026-01-23
+CLM-00353,PT-0353,UnitedHealth,Pine Ridge Outpatient,M17.11,29877,2118.70,2118.70,Paid,,,2026-04-02
+CLM-00354,PT-0354,Medicare,Pine Ridge Outpatient,S43.005A,23655-LT,2103.83,2103.83,Paid,,,2026-07-24
+CLM-00355,PT-0355,Medicare,Pine Ridge Outpatient,M16.11,27130,14431.18,14431.18,Paid,,,2025-12-30
+CLM-00356,PT-0356,Medicare,Harborview Medical Group,S43.005A,23655-LT,2491.38,2491.38,Paid,,,2026-01-04
+CLM-00357,PT-0357,BCBS,Cedar Valley Physicians,E11.52,28820-T7,3290.64,3290.64,Paid,,,2026-02-04
+CLM-00358,PT-0358,Medicare,Summit Health Partners,S43.005A,23655-LT,1950.44,1950.44,Paid,,,2026-02-20
+CLM-00359,PT-0359,Medicare,Harborview Medical Group,I74.2,34101,6747.38,6747.38,Paid,,,2026-08-10
+CLM-00360,PT-0360,Medicare,Lakeview Specialty Care,K40.90,49505-LT,5024.60,5024.60,Paid,,,2025-11-27
+CLM-00361,PT-0361,Cigna,Summit Health Partners,M17.11,27447-RT,15592.72,15592.72,Paid,,,2025-10-19
+CLM-00362,PT-0362,Cigna,Cedar Valley Physicians,J35.01,42826,1846.89,1846.89,Paid,,,2026-07-18
+CLM-00363,PT-0363,BCBS,Cedar Valley Physicians,M17.0,27447-50,15177.54,10102.21,Paid,,,2026-04-08
+CLM-00364,PT-0364,BCBS,Northwell Billing Center,J35.01,42826,2050.84,2050.84,Paid,,,2025-10-29
+CLM-00365,PT-0365,UnitedHealth,Lakeview Specialty Care,I70.261,35571-RT,10242.58,10242.58,Paid,,,2026-01-04
+CLM-00366,PT-0366,Medicare,Cedar Valley Physicians,M66.252,27385-LT,5640.37,5640.37,Paid,,,2026-07-09
+CLM-00367,PT-0367,BCBS,Pine Ridge Outpatient,M23.52,29888-LT,8358.53,8358.53,Paid,,,2025-08-29
+CLM-00368,PT-0368,UnitedHealth,Harborview Medical Group,K80.50,47562,4633.72,3904.70,Paid,,,2026-04-20
+CLM-00369,PT-0369,Medicare,Northwell Billing Center,K80.50,47562,3496.40,3496.40,Paid,,,2025-10-03
+CLM-00370,PT-0370,Medicare,Lakeview Specialty Care,M66.252,27385-LT,7453.74,7453.74,Paid,,,2026-04-19
+CLM-00371,PT-0371,Cigna,Lakeview Specialty Care,K40.30,49507-LT,4659.26,4659.26,Paid,,,2026-01-26
+CLM-00372,PT-0372,UnitedHealth,Cedar Valley Physicians,K80.50,47562,3801.44,3801.44,Paid,,,2026-01-29
+CLM-00373,PT-0373,Cigna,Cedar Valley Physicians,S52.571A,25608-RT,4524.18,4524.18,Paid,,,2026-07-03
+CLM-00374,PT-0374,UnitedHealth,Pine Ridge Outpatient,I74.2,34101,6828.32,6828.32,Paid,,,2025-09-27
+CLM-00375,PT-0375,BCBS,Lakeview Specialty Care,K80.50,47562,3883.03,3883.03,Paid,,,2025-12-21
+CLM-00376,PT-0376,BCBS,Lakeview Specialty Care,I74.2,34101,7748.11,7748.11,Paid,,,2026-01-11
+CLM-00377,PT-0377,Cigna,Northwell Billing Center,M23.52,29888-LT,7242.03,7242.03,Paid,,,2025-12-08
+CLM-00378,PT-0378,Aetna,Lakeview Specialty Care,K43.6,49561,4898.62,4898.62,Paid,,,2026-04-24
+CLM-00379,PT-0379,Medicare,Cedar Valley Physicians,E11.52,28820-T7,2744.20,2744.20,Paid,,,2026-01-08
+CLM-00380,PT-0380,Cigna,Harborview Medical Group,R55,33285,2197.77,1326.61,Paid,,,2026-06-16
+CLM-00381,PT-0381,UnitedHealth,Cedar Valley Physicians,R55,33285,2435.45,2435.45,Paid,,,2026-05-12
+CLM-00382,PT-0382,BCBS,Harborview Medical Group,M17.11,29877,2319.03,2319.03,Paid,,,2025-09-20
+CLM-00383,PT-0383,UnitedHealth,Pine Ridge Outpatient,M17.0,27447-50,17508.64,13086.99,Paid,,,2025-09-10
+CLM-00384,PT-0384,Cigna,Harborview Medical Group,S43.005A,23655-LT,2247.98,1494.55,Paid,,,2026-05-03
+CLM-00385,PT-0385,Aetna,Cedar Valley Physicians,S72.352A,27506-LT,11395.26,11395.26,Paid,,,2025-09-25
+CLM-00386,PT-0386,UnitedHealth,Northwell Billing Center,M17.0,27447-50,16269.49,16269.49,Paid,,,2026-03-31
+CLM-00387,PT-0387,Aetna,Pine Ridge Outpatient,M23.52,29888-LT,7711.97,7711.97,Paid,,,2025-08-21
+CLM-00388,PT-0388,Medicare,Northwell Billing Center,I74.2,34101,7730.94,7730.94,Paid,,,2025-09-02
+CLM-00389,PT-0389,Medicare,Cedar Valley Physicians,I70.261,35571-RT,8517.45,8517.45,Paid,,,2025-09-14
+CLM-00390,PT-0390,Aetna,Summit Health Partners,S82.251A,27759-RT,10699.26,10699.26,Paid,,,2026-07-04
+CLM-00391,PT-0391,UnitedHealth,Summit Health Partners,T84.84XA,20680,2984.43,2984.43,Paid,,,2026-02-19
+CLM-00392,PT-0392,Aetna,Cedar Valley Physicians,I74.2,34101,8202.55,8202.55,Paid,,,2025-10-17
+CLM-00393,PT-0393,Medicare,Northwell Billing Center,M16.11,27130,13101.36,13101.36,Paid,,,2026-05-07
+CLM-00394,PT-0394,BCBS,Northwell Billing Center,K40.30,49507-LT,5384.27,5384.27,Paid,,,2026-04-04
+CLM-00395,PT-0395,Cigna,Lakeview Specialty Care,M17.11,29877,2221.08,2221.08,Paid,,,2025-12-14
+CLM-00396,PT-0396,Medicare,Harborview Medical Group,S72.352A,27506-LT,11658.69,11658.69,Paid,,,2025-10-06
+CLM-00397,PT-0397,UnitedHealth,Pine Ridge Outpatient,K43.6,49561,5615.04,5615.04,Paid,,,2025-08-18
+CLM-00398,PT-0398,BCBS,Northwell Billing Center,S42.022A,23515-LT,3168.97,2405.96,Paid,,,2026-08-05
+CLM-00399,PT-0399,BCBS,Cedar Valley Physicians,K43.6,49561,4489.01,4489.01,Paid,,,2026-05-13
+CLM-00400,PT-0400,Aetna,Harborview Medical Group,M17.11,27447-RT,13816.13,13816.13,Paid,,,2026-05-31
+CLM-00401,PT-0401,Cigna,Pine Ridge Outpatient,M66.252,27385-LT,7031.45,7031.45,Paid,,,2025-12-09
+CLM-00402,PT-0402,BCBS,Cedar Valley Physicians,S52.571A,25608-RT,4226.78,4226.78,Paid,,,2025-12-28
+CLM-00403,PT-0403,Cigna,Pine Ridge Outpatient,K43.6,49561,5792.35,5792.35,Paid,,,2026-06-26
+CLM-00404,PT-0404,UnitedHealth,Pine Ridge Outpatient,M17.11,29877,2197.11,2197.11,Paid,,,2026-07-05
+CLM-00405,PT-0405,UnitedHealth,Pine Ridge Outpatient,M17.11,29877,2080.36,2080.36,Paid,,,2025-10-25
+CLM-00406,PT-0406,UnitedHealth,Harborview Medical Group,S52.571A,25608-RT,4520.56,4520.56,Paid,,,2025-12-03
+CLM-00407,PT-0407,BCBS,Lakeview Specialty Care,S52.571A,25608-RT,4722.57,4722.57,Paid,,,2026-03-11
+CLM-00408,PT-0408,Cigna,Harborview Medical Group,S43.005A,23655-LT,2126.36,2126.36,Paid,,,2026-01-26
+CLM-00409,PT-0409,Aetna,Lakeview Specialty Care,M16.11,27130,16010.03,12865.73,Paid,,,2025-11-15
+CLM-00410,PT-0410,Medicare,Lakeview Specialty Care,K43.6,49561,5470.93,5470.93,Paid,,,2025-09-16
+CLM-00411,PT-0411,Cigna,Cedar Valley Physicians,M17.11,27447-RT,14509.81,14509.81,Paid,,,2025-11-24
+CLM-00412,PT-0412,Medicare,Northwell Billing Center,M66.252,27385-LT,5938.03,5938.03,Paid,,,2025-10-09
+CLM-00413,PT-0413,UnitedHealth,Harborview Medical Group,T84.84XA,20680,2752.59,2752.59,Paid,,,2026-03-01
+CLM-00414,PT-0414,Cigna,Summit Health Partners,S42.022A,23515-LT,3897.55,3897.55,Paid,,,2026-05-10
+CLM-00415,PT-0415,Medicare,Summit Health Partners,M16.11,27130,13462.79,13462.79,Paid,,,2026-04-21
+CLM-00416,PT-0416,Aetna,Cedar Valley Physicians,S72.352A,27506-LT,12385.59,12385.59,Paid,,,2025-11-22
+CLM-00417,PT-0417,Medicare,Lakeview Specialty Care,R55,33285,2072.92,2072.92,Paid,,,2025-10-23
+CLM-00418,PT-0418,Medicare,Pine Ridge Outpatient,S06.5X9A,70450,508.69,508.69,Paid,,,2026-03-11
+CLM-00419,PT-0419,BCBS,Harborview Medical Group,S52.571A,25608-RT,3985.63,3985.63,Paid,,,2025-12-13
+CLM-00420,PT-0420,Cigna,Cedar Valley Physicians,S82.251A,27759-RT,12463.43,12463.43,Paid,,,2026-04-17
+CLM-00421,PT-0421,UnitedHealth,Lakeview Specialty Care,T84.84XA,20680,2341.22,2341.22,Paid,,,2025-11-04
+CLM-00422,PT-0422,Cigna,Lakeview Specialty Care,K40.30,49507-LT,4526.07,4526.07,Paid,,,2026-07-04
+CLM-00423,PT-0423,Cigna,Northwell Billing Center,K43.6,49561,5728.95,4791.11,Paid,,,2025-09-03
+CLM-00424,PT-0424,UnitedHealth,Harborview Medical Group,S06.5X9A,70450,496.24,496.24,Paid,,,2026-08-07
+CLM-00425,PT-0425,Aetna,Harborview Medical Group,K40.30,49507-LT,5008.60,5008.60,Paid,,,2026-06-22
+CLM-00426,PT-0426,Cigna,Lakeview Specialty Care,M16.11,27130,15192.89,11186.14,Paid,,,2026-03-08
+CLM-00427,PT-0427,Aetna,Pine Ridge Outpatient,S06.5X9A,70450,480.00,480.00,Paid,,,2026-01-03
+CLM-00428,PT-0428,Cigna,Cedar Valley Physicians,S06.5X9A,70450,473.49,473.49,Paid,,,2025-11-09
+CLM-00429,PT-0429,Aetna,Pine Ridge Outpatient,J35.01,42826,1610.40,1610.40,Paid,,,2026-05-06
+CLM-00430,PT-0430,Medicare,Summit Health Partners,M23.252,29882-LT,3483.14,3085.21,Paid,,,2026-04-02
+CLM-00431,PT-0431,BCBS,Cedar Valley Physicians,M23.52,29888-LT,7158.51,7158.51,Paid,,,2025-09-20
+CLM-00432,PT-0432,Aetna,Northwell Billing Center,M16.11,27130,14087.96,14087.96,Paid,,,2026-04-10
+CLM-00433,PT-0433,Aetna,Cedar Valley Physicians,K43.6,49561,4687.36,4687.36,Paid,,,2026-03-20
+CLM-00434,PT-0434,Medicare,Pine Ridge Outpatient,M16.11,27130,16576.38,16576.38,Paid,,,2026-05-07
+CLM-00435,PT-0435,BCBS,Harborview Medical Group,K43.6,49561,5825.99,5825.99,Paid,,,2026-05-27
+CLM-00436,PT-0436,Medicare,Northwell Billing Center,S82.251A,27759-RT,12399.73,12399.73,Paid,,,2025-12-31
+CLM-00437,PT-0437,Cigna,Cedar Valley Physicians,S43.005A,23655-LT,1891.72,1891.72,Paid,,,2026-01-18
+CLM-00438,PT-0438,BCBS,Pine Ridge Outpatient,S06.5X9A,70450,401.97,401.97,Paid,,,2026-03-01
+CLM-00439,PT-0439,Medicare,Harborview Medical Group,K40.90,49505-LT,4892.10,4892.10,Paid,,,2026-02-25
+CLM-00440,PT-0440,Cigna,Summit Health Partners,M17.11,29877,2123.34,2123.34,Paid,,,2026-07-28
+CLM-00441,PT-0441,Aetna,Pine Ridge Outpatient,T84.84XA,20680,2791.46,2791.46,Paid,,,2025-09-29
+CLM-00442,PT-0442,BCBS,Northwell Billing Center,I70.261,35571-RT,9331.34,9331.34,Paid,,,2026-06-10
+CLM-00443,PT-0443,Medicare,Northwell Billing Center,I74.2,34101,7489.71,7489.71,Paid,,,2026-03-28
+CLM-00444,PT-0444,BCBS,Summit Health Partners,S82.251A,27759-RT,11175.02,11175.02,Paid,,,2025-11-13
+CLM-00445,PT-0445,Cigna,Cedar Valley Physicians,M17.11,29877,2120.85,2120.85,Paid,,,2026-01-08
+CLM-00446,PT-0446,Aetna,Northwell Billing Center,S42.022A,23515-LT,3349.41,3349.41,Paid,,,2026-06-30
+CLM-00447,PT-0447,UnitedHealth,Summit Health Partners,K40.30,49507-LT,4791.05,4216.30,Paid,,,2026-03-25
+CLM-00448,PT-0448,Medicare,Northwell Billing Center,R55,33285,2135.41,2135.41,Paid,,,2026-03-27
+CLM-00449,PT-0449,Cigna,Pine Ridge Outpatient,S43.005A,23655-LT,2139.31,1441.62,Paid,,,2025-09-26
+CLM-00450,PT-0450,Cigna,Summit Health Partners,S62.317A,26608-LT,2883.70,2003.69,Paid,,,2025-09-22
+CLM-00451,PT-0451,Cigna,Harborview Medical Group,T84.84XA,20680,2656.13,2656.13,Paid,,,2026-02-20
+CLM-00452,PT-0452,BCBS,Summit Health Partners,K80.50,47562,3855.39,3855.39,Paid,,,2025-09-11
+CLM-00453,PT-0453,UnitedHealth,Summit Health Partners,K80.50,47562,4002.96,4002.96,Paid,,,2025-09-18
+CLM-00454,PT-0454,Medicare,Harborview Medical Group,R55,33285,2559.05,2559.05,Paid,,,2026-06-21
+CLM-00455,PT-0455,UnitedHealth,Northwell Billing Center,M17.11,27447-RT,12290.93,8462.21,Paid,,,2026-06-23
+CLM-00456,PT-0456,Medicare,Lakeview Specialty Care,I74.2,34101,6843.03,6843.03,Paid,,,2026-07-09
+CLM-00457,PT-0457,BCBS,Summit Health Partners,S62.317A,26608-LT,2460.12,2460.12,Paid,,,2025-11-20
+CLM-00458,PT-0458,Medicare,Harborview Medical Group,S82.251A,27759-RT,12533.10,12533.10,Paid,,,2026-01-06
+CLM-00459,PT-0459,UnitedHealth,Pine Ridge Outpatient,T84.84XA,20680,2819.94,2819.94,Paid,,,2025-12-31
+CLM-00460,PT-0460,Medicare,Northwell Billing Center,I74.2,34101,8133.27,8133.27,Paid,,,2026-05-16
+CLM-00461,PT-0461,Cigna,Northwell Billing Center,K80.50,47562,4657.20,4657.20,Paid,,,2026-08-07
+CLM-00462,PT-0462,UnitedHealth,Summit Health Partners,M17.11,27447-RT,15171.51,12846.11,Paid,,,2026-03-07
+CLM-00463,PT-0463,UnitedHealth,Harborview Medical Group,M17.11,29877,2288.00,2288.00,Paid,,,2026-07-13
+CLM-00464,PT-0464,UnitedHealth,Lakeview Specialty Care,K40.30,49507-LT,4360.95,4360.95,Paid,,,2026-04-12
+CLM-00465,PT-0465,UnitedHealth,Pine Ridge Outpatient,M23.52,29888-LT,7815.47,7815.47,Paid,,,2026-07-30
+CLM-00466,PT-0466,Cigna,Northwell Billing Center,I70.261,35571-RT,10654.72,10654.72,Paid,,,2026-05-11
+CLM-00467,PT-0467,Aetna,Northwell Billing Center,S62.317A,26608-LT,2809.78,2809.78,Paid,,,2026-02-07
+CLM-00468,PT-0468,Cigna,Northwell Billing Center,K80.50,47562,4177.76,4177.76,Paid,,,2026-07-07
+CLM-00469,PT-0469,Medicare,Lakeview Specialty Care,I74.2,34101,6348.84,3985.17,Paid,,,2026-05-02
+CLM-00470,PT-0470,Cigna,Cedar Valley Physicians,S43.005A,23655-LT,2249.66,2249.66,Paid,,,2026-02-26
+CLM-00471,PT-0471,Cigna,Cedar Valley Physicians,S72.352A,27506-LT,12501.75,12501.75,Paid,,,2025-08-22
+CLM-00472,PT-0472,Aetna,Summit Health Partners,S82.251A,27759-RT,10722.72,10722.72,Paid,,,2025-10-08
+CLM-00473,PT-0473,BCBS,Summit Health Partners,T84.84XA,20680,2453.27,2453.27,Paid,,,2025-11-23
+CLM-00474,PT-0474,UnitedHealth,Summit Health Partners,M17.0,27447-50,16382.00,16382.00,Paid,,,2026-08-01
+CLM-00475,PT-0475,Medicare,Northwell Billing Center,S72.352A,27506-LT,11750.99,11750.99,Paid,,,2025-10-07
+CLM-00476,PT-0476,Medicare,Cedar Valley Physicians,S06.5X9A,70450,397.26,397.26,Paid,,,2025-12-12
+CLM-00477,PT-0477,BCBS,Pine Ridge Outpatient,M17.0,27447-50,14817.67,14817.67,Paid,,,2026-04-03
+CLM-00478,PT-0478,UnitedHealth,Cedar Valley Physicians,S42.022A,23515-LT,3259.21,3259.21,Paid,,,2026-03-19
+CLM-00479,PT-0479,Aetna,Cedar Valley Physicians,I74.2,34101,7446.47,7446.47,Paid,,,2026-06-09
+CLM-00480,PT-0480,UnitedHealth,Northwell Billing Center,I70.261,35571-RT,10401.92,10401.92,Paid,,,2026-08-05
+CLM-00481,PT-0481,Cigna,Northwell Billing Center,K40.90,49505-LT,5231.28,5231.28,Paid,,,2026-02-13
+CLM-00482,PT-0482,BCBS,Lakeview Specialty Care,M66.252,27385-LT,5747.21,5747.21,Paid,,,2026-04-17
+CLM-00483,PT-0483,Medicare,Pine Ridge Outpatient,M17.0,27447-50,15948.76,15948.76,Paid,,,2025-10-07
+CLM-00484,PT-0484,Medicare,Lakeview Specialty Care,R55,33285,2484.50,2484.50,Paid,,,2026-08-06
+CLM-00485,PT-0485,Cigna,Pine Ridge Outpatient,S52.571A,25608-RT,3676.79,2173.91,Paid,,,2026-01-13
+CLM-00486,PT-0486,BCBS,Summit Health Partners,J35.01,42826,1904.46,1904.46,Paid,,,2026-03-12
+CLM-00487,PT-0487,BCBS,Pine Ridge Outpatient,S62.317A,26608-LT,2509.29,2509.29,Paid,,,2026-07-01
+CLM-00488,PT-0488,BCBS,Pine Ridge Outpatient,S43.005A,23655-LT,1980.13,1980.13,Paid,,,2025-11-13
+CLM-00489,PT-0489,UnitedHealth,Pine Ridge Outpatient,M66.252,27385-LT,5629.54,5629.54,Paid,,,2025-08-14
+CLM-00490,PT-0490,BCBS,Harborview Medical Group,S82.251A,27759-RT,12040.21,12040.21,Paid,,,2026-04-25
+CLM-00491,PT-0491,UnitedHealth,Lakeview Specialty Care,M16.11,27130,15303.43,15303.43,Paid,,,2026-03-25
+CLM-00492,PT-0492,BCBS,Northwell Billing Center,S82.251A,27759-RT,11215.81,11215.81,Paid,,,2025-11-30
+CLM-00493,PT-0493,Aetna,Summit Health Partners,S52.571A,25608-RT,3853.30,3853.30,Paid,,,2026-04-01
+CLM-00494,PT-0494,UnitedHealth,Pine Ridge Outpatient,M23.52,29888-LT,7825.29,7825.29,Paid,,,2025-12-25
+CLM-00495,PT-0495,Medicare,Pine Ridge Outpatient,S43.005A,23655-LT,2412.92,1934.30,Paid,,,2026-05-16
+CLM-00496,PT-0496,UnitedHealth,Northwell Billing Center,M17.11,27447-RT,14776.99,14776.99,Paid,,,2025-12-14
+CLM-00497,PT-0497,Aetna,Lakeview Specialty Care,S52.571A,25608-RT,3901.15,3901.15,Paid,,,2025-09-23
+CLM-00498,PT-0498,Aetna,Harborview Medical Group,S72.352A,27506-LT,11412.04,11412.04,Paid,,,2026-07-28
+CLM-00499,PT-0499,Cigna,Cedar Valley Physicians,R55,33285,2348.28,2348.28,Paid,,,2025-11-23
+CLM-00500,PT-0500,Aetna,Pine Ridge Outpatient,M17.11,27447-RT,13182.38,13182.38,Paid,,,2026-05-12
+CLM-00501,PT-0501,Medicare,Cedar Valley Physicians,K80.50,47562,3844.94,3844.94,Paid,,,2026-04-30
+CLM-00502,PT-0502,Aetna,Harborview Medical Group,M17.11,29877,2505.43,2505.43,Paid,,,2025-09-09
+CLM-00503,PT-0503,BCBS,Cedar Valley Physicians,M23.252,29882-LT,3551.44,3551.44,Paid,,,2026-08-09
+CLM-00504,PT-0504,BCBS,Cedar Valley Physicians,M66.252,27385-LT,6290.77,4852.33,Paid,,,2026-06-27
+CLM-00505,PT-0505,UnitedHealth,Lakeview Specialty Care,I70.261,35571-RT,8552.02,8552.02,Paid,,,2025-09-26
+CLM-00506,PT-0506,Cigna,Cedar Valley Physicians,I74.2,34101,6720.97,6720.97,Paid,,,2026-02-14
+CLM-00507,PT-0507,UnitedHealth,Summit Health Partners,S72.352A,27506-LT,12807.33,12807.33,Paid,,,2025-09-26
+CLM-00508,PT-0508,UnitedHealth,Cedar Valley Physicians,T84.84XA,20680,2728.03,2728.03,Paid,,,2025-09-11
+CLM-00509,PT-0509,UnitedHealth,Harborview Medical Group,S43.005A,23655-LT,2508.96,2508.96,Paid,,,2026-04-20
+CLM-00510,PT-0510,Medicare,Summit Health Partners,M23.252,29882-LT,3044.24,3044.24,Paid,,,2026-05-26
+CLM-00511,PT-0511,Medicare,Cedar Valley Physicians,S82.251A,27759-RT,11865.44,9126.46,Paid,,,2026-04-02
+CLM-00512,PT-0512,Aetna,Harborview Medical Group,S06.5X9A,70450,442.07,391.37,Paid,,,2025-11-21
+CLM-00513,PT-0513,BCBS,Cedar Valley Physicians,E11.52,28820-T7,2915.73,2915.73,Paid,,,2025-12-28
+CLM-00514,PT-0514,Medicare,Summit Health Partners,K40.90,49505-LT,4198.69,4198.69,Paid,,,2026-07-08
+CLM-00515,PT-0515,Aetna,Lakeview Specialty Care,K80.50,47562,4254.49,4254.49,Paid,,,2025-12-07
+CLM-00516,PT-0516,Aetna,Cedar Valley Physicians,I70.261,35571-RT,8609.84,8609.84,Paid,,,2025-09-18
+CLM-00517,PT-0517,Cigna,Harborview Medical Group,K40.30,49507-LT,5029.17,5029.17,Paid,,,2025-08-14
+CLM-00518,PT-0518,Medicare,Northwell Billing Center,E11.52,28820-T7,3553.98,3553.98,Paid,,,2025-10-16
+CLM-00519,PT-0519,Aetna,Harborview Medical Group,S82.251A,27759-RT,10614.13,10614.13,Paid,,,2025-10-01
+CLM-00520,PT-0520,Medicare,Summit Health Partners,J35.01,42826,2005.73,1646.13,Paid,,,2025-10-17
+CLM-00521,PT-0521,BCBS,Northwell Billing Center,M16.11,27130,14632.71,11377.04,Paid,,,2026-03-23
+CLM-00522,PT-0522,BCBS,Cedar Valley Physicians,R55,33285,2578.75,2578.75,Paid,,,2026-06-21
+CLM-00523,PT-0523,UnitedHealth,Harborview Medical Group,M17.11,29877,1927.21,1567.51,Paid,,,2026-06-07
+CLM-00524,PT-0524,UnitedHealth,Summit Health Partners,T84.84XA,20680,2961.33,2961.33,Paid,,,2025-10-20
+CLM-00525,PT-0525,Medicare,Cedar Valley Physicians,S42.022A,23515-LT,3150.99,3150.99,Paid,,,2026-06-13
+CLM-00526,PT-0526,Cigna,Summit Health Partners,T84.84XA,20680,2817.60,2817.60,Paid,,,2026-07-13
+CLM-00527,PT-0527,BCBS,Pine Ridge Outpatient,S52.571A,25608-RT,4334.73,4334.73,Paid,,,2026-02-26
+CLM-00528,PT-0528,Aetna,Harborview Medical Group,S52.571A,25608-RT,4193.56,3039.72,Paid,,,2026-06-10
+CLM-00529,PT-0529,Cigna,Northwell Billing Center,K40.90,49505-LT,5501.11,5501.11,Paid,,,2025-10-16
+CLM-00530,PT-0530,Cigna,Lakeview Specialty Care,I74.2,34101,6909.29,6909.29,Paid,,,2026-04-08
+CLM-00531,PT-0531,Aetna,Pine Ridge Outpatient,K40.90,49505-LT,4177.25,4177.25,Paid,,,2025-08-30
+CLM-00532,PT-0532,UnitedHealth,Pine Ridge Outpatient,K43.6,49561,4866.92,4866.92,Paid,,,2026-03-10
+CLM-00533,PT-0533,UnitedHealth,Northwell Billing Center,I70.261,35571-RT,10213.18,10213.18,Paid,,,2025-10-27
+CLM-00534,PT-0534,Aetna,Summit Health Partners,M23.252,29882-LT,2795.86,2795.86,Paid,,,2025-10-28
+CLM-00535,PT-0535,Medicare,Lakeview Specialty Care,S43.005A,23655-LT,2257.05,2257.05,Paid,,,2026-07-08
+CLM-00536,PT-0536,Aetna,Summit Health Partners,M17.11,29877,2331.13,2331.13,Paid,,,2025-12-10
+CLM-00537,PT-0537,BCBS,Northwell Billing Center,K43.6,49561,5862.42,4480.67,Paid,,,2025-09-07
+CLM-00538,PT-0538,BCBS,Northwell Billing Center,S52.571A,25608-RT,3585.96,1986.52,Paid,,,2026-04-21
+CLM-00539,PT-0539,Cigna,Pine Ridge Outpatient,R55,33285,2603.75,2603.75,Paid,,,2025-11-03
+CLM-00540,PT-0540,BCBS,Cedar Valley Physicians,R55,33285,2602.41,2602.41,Paid,,,2025-10-09
+CLM-00541,PT-0541,Medicare,Lakeview Specialty Care,S06.5X9A,70450,419.22,335.09,Paid,,,2026-06-01
+CLM-00542,PT-0542,Aetna,Lakeview Specialty Care,M16.11,27130,14305.11,14305.11,Paid,,,2026-04-22
+CLM-00543,PT-0543,BCBS,Summit Health Partners,M23.52,29888-LT,6998.11,6998.11,Paid,,,2026-05-30
+CLM-00544,PT-0544,Aetna,Harborview Medical Group,M17.11,29877,2358.91,2006.35,Paid,,,2025-08-16
+CLM-00545,PT-0545,Aetna,Lakeview Specialty Care,S42.022A,23515-LT,3453.09,3453.09,Paid,,,2025-11-09
+CLM-00546,PT-0546,Cigna,Cedar Valley Physicians,K43.6,49561,5575.44,5575.44,Paid,,,2026-01-21
+CLM-00547,PT-0547,UnitedHealth,Cedar Valley Physicians,S42.022A,23515-LT,3405.53,3405.53,Paid,,,2026-05-29
+CLM-00548,PT-0548,Aetna,Pine Ridge Outpatient,R55,33285,2524.79,1585.86,Paid,,,2026-05-01
+CLM-00549,PT-0549,UnitedHealth,Northwell Billing Center,K43.6,49561,5788.11,5788.11,Paid,,,2026-01-16
+CLM-00550,PT-0550,Aetna,Pine Ridge Outpatient,M66.252,27385-LT,6415.66,6415.66,Paid,,,2026-01-06
+CLM-00551,PT-0551,Medicare,Cedar Valley Physicians,M23.52,29888-LT,8087.16,8087.16,Paid,,,2026-06-08
+CLM-00552,PT-0552,BCBS,Cedar Valley Physicians,S82.251A,27759-RT,12321.46,12321.46,Paid,,,2025-12-13
+CLM-00553,PT-0553,Aetna,Lakeview Specialty Care,K40.30,49507-LT,4285.87,4285.87,Paid,,,2026-07-01
+CLM-00554,PT-0554,Aetna,Summit Health Partners,E11.52,28820-T7,2636.36,2636.36,Paid,,,2026-01-14
+CLM-00555,PT-0555,BCBS,Pine Ridge Outpatient,J35.01,42826,2060.88,2060.88,Paid,,,2025-09-09
+CLM-00556,PT-0556,Medicare,Northwell Billing Center,K40.30,49507-LT,4315.85,4315.85,Paid,,,2026-05-03
+CLM-00557,PT-0557,Medicare,Lakeview Specialty Care,I70.261,35571-RT,11195.19,6531.86,Paid,,,2025-10-17
+CLM-00558,PT-0558,UnitedHealth,Northwell Billing Center,M16.11,27130,14899.75,11649.45,Paid,,,2025-10-15
+CLM-00559,PT-0559,Medicare,Summit Health Partners,S42.022A,23515-LT,3978.99,3978.99,Paid,,,2026-02-27
+CLM-00560,PT-0560,Medicare,Summit Health Partners,E11.52,28820-T7,3056.06,3056.06,Paid,,,2025-11-21
+CLM-00561,PT-0561,Cigna,Northwell Billing Center,K40.30,49507-LT,4483.12,4483.12,Paid,,,2026-04-05
+CLM-00562,PT-0562,UnitedHealth,Northwell Billing Center,M66.252,27385-LT,6570.05,6570.05,Paid,,,2025-11-24
+CLM-00563,PT-0563,Medicare,Lakeview Specialty Care,S72.352A,27506-LT,11618.78,7031.28,Paid,,,2026-07-27
+CLM-00564,PT-0564,Cigna,Northwell Billing Center,S52.571A,25608-RT,3840.93,3840.93,Paid,,,2025-10-24
+CLM-00565,PT-0565,BCBS,Summit Health Partners,K40.90,49505-LT,4650.59,3044.25,Paid,,,2025-11-07
+CLM-00566,PT-0566,UnitedHealth,Lakeview Specialty Care,S06.5X9A,70450,457.55,457.55,Paid,,,2025-09-27
+CLM-00567,PT-0567,Aetna,Harborview Medical Group,S72.352A,27506-LT,11080.45,9122.93,Paid,,,2025-12-01
+CLM-00568,PT-0568,BCBS,Lakeview Specialty Care,K40.30,49507-LT,4808.36,4808.36,Paid,,,2026-07-06
+CLM-00569,PT-0569,Cigna,Pine Ridge Outpatient,K40.90,49505-LT,4452.70,4452.70,Paid,,,2025-08-21
+CLM-00570,PT-0570,BCBS,Cedar Valley Physicians,K40.90,49505-LT,4718.54,4089.92,Paid,,,2026-01-26
+CLM-00571,PT-0571,Aetna,Lakeview Specialty Care,J35.01,42826,1557.34,1557.34,Paid,,,2026-03-19
+CLM-00572,PT-0572,UnitedHealth,Lakeview Specialty Care,T84.84XA,20680,2233.00,2233.00,Paid,,,2025-11-06
+CLM-00573,PT-0573,BCBS,Harborview Medical Group,R55,33285,2237.99,2237.99,Paid,,,2025-10-25
+CLM-00574,PT-0574,Cigna,Pine Ridge Outpatient,K43.6,49561,5382.48,5382.48,Paid,,,2026-04-22
+CLM-00575,PT-0575,Cigna,Lakeview Specialty Care,I70.261,35571-RT,8509.28,8509.28,Paid,,,2025-10-19
+CLM-00576,PT-0576,BCBS,Cedar Valley Physicians,I70.261,35571-RT,10930.88,10930.88,Paid,,,2026-06-28
+CLM-00577,PT-0577,Aetna,Lakeview Specialty Care,S43.005A,23655-LT,2386.06,2386.06,Paid,,,2026-05-15
+CLM-00578,PT-0578,Medicare,Pine Ridge Outpatient,S82.251A,27759-RT,11007.90,11007.90,Paid,,,2025-11-10
+CLM-00579,PT-0579,Medicare,Pine Ridge Outpatient,S06.5X9A,70450,412.07,412.07,Paid,,,2025-12-31
+CLM-00580,PT-0580,UnitedHealth,Pine Ridge Outpatient,K43.6,49561,4977.60,4977.60,Paid,,,2025-12-07
+CLM-00581,PT-0581,Aetna,Harborview Medical Group,K80.50,47562,4292.94,4292.94,Paid,,,2025-09-07
+CLM-00582,PT-0582,Cigna,Lakeview Specialty Care,S42.022A,23515-LT,3443.19,3443.19,Paid,,,2025-11-06
+CLM-00583,PT-0583,BCBS,Pine Ridge Outpatient,K80.50,47562,3876.15,3876.15,Paid,,,2026-02-09
+CLM-00584,PT-0584,Aetna,Cedar Valley Physicians,M23.52,29888-LT,8269.31,8269.31,Paid,,,2026-05-25
+CLM-00585,PT-0585,Cigna,Harborview Medical Group,K40.30,49507-LT,5505.05,5505.05,Paid,,,2026-04-19
+CLM-00586,PT-0586,Medicare,Harborview Medical Group,S43.005A,23655-LT,2193.69,1385.14,Paid,,,2025-11-30
+CLM-00587,PT-0587,Cigna,Lakeview Specialty Care,S06.5X9A,70450,382.59,382.59,Paid,,,2025-11-21
+CLM-00588,PT-0588,Medicare,Cedar Valley Physicians,K40.30,49507-LT,4516.19,4516.19,Paid,,,2026-01-22
+CLM-00589,PT-0589,Aetna,Harborview Medical Group,K43.6,49561,5335.11,5335.11,Paid,,,2025-10-05
+CLM-00590,PT-0590,Medicare,Northwell Billing Center,M17.0,27447-50,15874.27,15874.27,Paid,,,2026-02-28
+CLM-00591,PT-0591,Aetna,Summit Health Partners,M23.52,29888-LT,7336.13,4439.29,Paid,,,2026-03-21
+CLM-00592,PT-0592,UnitedHealth,Cedar Valley Physicians,M16.11,27130,13705.18,13705.18,Paid,,,2026-05-24
+CLM-00593,PT-0593,Cigna,Summit Health Partners,E11.52,28820-T7,2842.61,2842.61,Paid,,,2025-11-07
+CLM-00594,PT-0594,Medicare,Cedar Valley Physicians,I74.2,34101,7607.16,6124.45,Paid,,,2026-08-04
+CLM-00595,PT-0595,UnitedHealth,Pine Ridge Outpatient,M23.52,29888-LT,6705.78,6705.78,Paid,,,2026-06-19
+CLM-00596,PT-0596,Cigna,Northwell Billing Center,S42.022A,23515-LT,4071.62,3301.56,Paid,,,2025-12-09
+CLM-00597,PT-0597,Medicare,Harborview Medical Group,R55,33285,2498.05,2498.05,Paid,,,2026-08-07
+CLM-00598,PT-0598,Medicare,Lakeview Specialty Care,M17.11,29877,1877.52,1877.52,Paid,,,2026-07-30
+CLM-00599,PT-0599,Medicare,Summit Health Partners,K40.90,49505-LT,5213.31,5213.31,Paid,,,2025-09-03
+CLM-00600,PT-0600,UnitedHealth,Cedar Valley Physicians,I74.2,34101,7026.45,7026.45,Paid,,,2026-03-09
